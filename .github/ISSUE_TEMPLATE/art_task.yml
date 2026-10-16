@@ -1,0 +1,37 @@
+name: Art or animation task
+description: Propose an original or authorized 3D art / animation task
+title: "[Art] "
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Asset type
+      options:
+        - Character model
+        - Rigging / animation
+        - Environment
+        - Texture / material
+        - VFX
+        - Audio
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: brief
+    attributes:
+      label: Asset brief / references
+      description: Describe the deliverable; use links to references instead of uploading proprietary game files
+    validations:
+      required: true
+  - type: textarea
+    id: technical
+    attributes:
+      label: Technical constraints
+      description: Poly budget, format, texture size, animations, Unity pipeline, etc.
+  - type: textarea
+    id: source
+    attributes:
+      label: Creator, license, and redistribution permission
+      description: Who owns this work and how may it be used/shared?
+    validations:
+      required: true

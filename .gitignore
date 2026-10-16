@@ -1,0 +1,53 @@
+# Unity-generated folders: never commit
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Unity / IDE local caches
+/.vs/
+/.vscode/
+/.idea/
+.gradle/
+.consulo/
+ExportedObj/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+*.opendb.meta
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local/temporary tools and archives
+*.log
+*.bak
+*.swp
+*.orig
+*.unitypackage
+*.apk
+*.aab
+
+# NEVER ignore *.meta files, .unity scenes, ProjectSettings, or Packages.
+# Never commit passwords, API keys, proprietary third-party assets, or extracted original-game data.

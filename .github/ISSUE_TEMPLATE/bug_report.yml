@@ -1,0 +1,41 @@
+name: Bug report
+description: Report a reproducible bug in the 3D remake
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What went wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open...
+        2. Move to...
+        3. Observe...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: input
+    id: unity
+    attributes:
+      label: Unity editor version (if applicable)
+  - type: input
+    id: platform
+    attributes:
+      label: OS / build platform
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / screenshots (remove secrets or personal information)

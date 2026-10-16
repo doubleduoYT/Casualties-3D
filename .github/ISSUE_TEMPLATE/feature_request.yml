@@ -1,0 +1,36 @@
+name: Feature or gameplay proposal
+description: Suggest a gameplay feature or technical improvement
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or goal
+      description: What should be improved or made possible?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed approach
+      description: Explain the desired behavior and rough scope
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives / concerns
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Gameplay
+        - Player / controls
+        - Art / animation
+        - Audio
+        - UI / UX
+        - Tools / build
+        - Other
