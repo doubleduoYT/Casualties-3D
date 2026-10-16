@@ -1,13 +1,16 @@
 # Unity project setup (team checklist)
 
-**Status:** Unity chosen; exact editor version and render pipeline not chosen. The current repository contains collaboration scaffolding, **not yet a runnable Unity game**.
+**Status:** **Unity 6.3 confirmed in the project master document**; exact 6.3 patch/build and render pipeline not yet confirmed. The current repository contains collaboration scaffolding, **not yet a runnable Unity game**.
 
 ## Decisions needed before creating the project
 
-- [ ] Agree on an exact Unity LTS editor version and record it in `ProjectSettings/ProjectVersion.txt`.
+- [x] Choose Unity 6.3 as the engine version.
+- [ ] Agree on an **exact Unity 6.3 editor patch/build** and record the Unity-generated value in `ProjectSettings/ProjectVersion.txt`.
 - [ ] Choose 3D Built-in, URP, or HDRP. For broad PC support, consider URP, but decide together.
 - [ ] Choose target platforms and input approach (e.g. Unity Input System).
 - [ ] Confirm base scene and folder naming standards.
+- [ ] Decide how PS1-style pixel textures, low resolution, crisp silhouettes and atmospheric lighting will be rendered (see [art direction](ART_DIRECTION.md)).
+- [ ] Agree on an audio mixer/effects approach for dynamic ambience and hearing-state changes (see [sound design](SOUND_DESIGN.md)).
 - [ ] Agree whether the first milestone uses placeholder art only.
 
 ## Creating the initial Unity project
