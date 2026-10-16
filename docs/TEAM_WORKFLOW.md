@@ -2,8 +2,13 @@
 
 ## Coordinating work
 
-- **DoubDu:** project coordination and final scope/integration decisions.
-- Other contributors: roles and permissions will be confirmed individually; being in a chat does not automatically grant write/admin access.
+- **DoubDo:** Lead Developer, Programmer (GitHub owner: @doubleduoYT).
+- **Smithinghouse:** Composer, Artist.
+- **LongMiddle:** Artist.
+- **Thundoxa:** Artist.
+- **argenalmaz00:** Programmer.
+- **Mega Muncher:** Programmer, Artist.
+- These are the roles stated in the shared project master document, not confirmed GitHub usernames or repository invitations. GitHub access and ongoing participation must be verified individually.
 - Discuss work in the project's chat, but make important decisions visible in Issues or PRs so later contributors can catch up.
 
 ## Board columns (suggested)
@@ -25,8 +30,12 @@ Avoid pushing unfinished changes straight to `main`. Prefer pull requests and at
 2. Agree on scope and mark who is working on it (avoid two people unknowingly changing the same scene).
 3. Make a focused branch and commits.
 4. Create a PR using the template, including screenshots/video for visual changes.
-5. Review for compile errors, missing assets, permissions, performance, and scope.
+5. Review for compile errors, missing assets, permissions, performance, **AI-use disclosures**, and scope.
 6. Merge to `main`; close the linked Issue.
+
+## AI-assisted work
+
+The team permits AI tools, but the master document requires contributors to note any AI-generated or AI-modified work. See [AI contributions policy](AI_CONTRIBUTIONS.md) and use the PR template's disclosure field. Human review and testing remain mandatory.
 
 ## Version compatibility
 
