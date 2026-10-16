@@ -1,6 +1,10 @@
 # Art, audio, code, and intellectual property policy
 
-This is an **unofficial, non-commercial** fan project. Non-commercial intent does **not** automatically grant permission to copy or redistribute someone else's creative work.
+This is an **unofficial, non-commercial** fan project intended to be published as open source once the necessary permissions and licenses are agreed. Non-commercial intent does **not** automatically grant permission to copy or redistribute someone else's creative work.
+
+## Contributor ownership
+
+According to the project's master document, contributors retain ownership of their own code, art, and audio. Others must obtain the individual creator's **explicit permission** before reusing their contributions elsewhere. The team must still clarify the permissions required to distribute and modify these contributions within the fan project and under a future open-source license. A GitHub commit alone does not resolve that licensing agreement.
 
 ## What contributors may submit
 
@@ -28,6 +32,10 @@ For each new non-trivial art, music, or third-party code contribution, record:
 | Distribution allowed? | Yes / No / Pending |
 
 Keep this information in the related PR and, when added, in an asset credit manifest. If permission is pending, **do not push the file** to a public repo.
+
+## AI-created or AI-modified assets
+
+Disclose AI use in the corresponding PR or asset provenance record under [AI_CONTRIBUTIONS.md](AI_CONTRIBUTIONS.md). Verify that the tool's terms and any incorporated sources permit the intended use; labeling content as AI-generated does not guarantee legal rights or safety.
 
 ## Licensing status
 
