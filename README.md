@@ -4,12 +4,26 @@
 
 ## Status
 
-**Pre-production / project setup.** This repository is being prepared for team collaboration. **There is no playable Unity build here yet.**
+**Pre-production / project setup.** The team has selected Unity 6.3 and established an initial design direction. **There is no playable Unity build here yet.**
 
-- **Engine:** Unity (the exact editor version and render pipeline are still to be decided by the team).
-- **Goal:** Explore a fan-made 3D interpretation of the game's atmosphere, characters, and survival experience.
-- **Project coordination:** DoubDu.
-- **Contributors:** Welcome after agreeing on project scope and asset ownership.
+- **Engine:** Unity **6.3** (exact patch/build and render pipeline pending team confirmation).
+- **Concept:** A grimdark 3D survival remake: guide Experiments into the depths to recover lost cargo while avoiding creatures, traps, and environmental dangers.
+- **Art direction:** PS1-era-inspired sharp low-poly geometry, pixel-art textures, and atmospheric lighting.
+- **Sound direction:** Layered ambient effects, lo-fi / synthwave-inspired music, and context-sensitive audio.
+- **Project goal:** Non-commercial, collaborative development with an intention to publish as open source once licensing and redistribution rights are agreed.
+
+### Team (per the project master document)
+
+| Contributor | Role |
+| --- | --- |
+| **DoubDo** | Lead Developer, Programmer |
+| **Smithinghouse** | Composer, Artist |
+| **LongMiddle** | Artist |
+| **Thundoxa** | Artist |
+| **argenalmaz00** | Programmer |
+| **Mega Muncher** | Programmer, Artist |
+
+This roster comes from the master document; GitHub access and current participation should be confirmed individually.
 
 ## Getting started
 
@@ -19,7 +33,7 @@
 4. Work on a separate branch and submit a pull request.
 5. Once the actual Unity project is committed, clone this repository and open its root folder in **Unity Hub** using the recorded editor version.
 
-> Do **not** create competing Unity projects in this repository before the team settles on a Unity editor version, template, and render pipeline.
+> Do **not** create competing Unity projects in this repository before the team selects the exact Unity 6.3 editor patch, template, and render pipeline.
 
 ## Planned repository structure
 
@@ -42,19 +56,28 @@ Commit `Assets/`, `Packages/`, `ProjectSettings/`, and their required `.meta` fi
 - Keep `main` as the integration branch. Ask for review before merging changes.
 - See [team workflow](docs/TEAM_WORKFLOW.md), [contribution guidelines](CONTRIBUTING.md), and [asset policy](docs/ASSET_POLICY.md).
 
+## Design and production guides
+
+- [Art direction](docs/ART_DIRECTION.md) — low-poly, textures, lighting and legibility.
+- [Music and sound design](docs/SOUND_DESIGN.md) — dynamic, atmospheric audio.
+- [AI-assisted work disclosures](docs/AI_CONTRIBUTIONS.md) — required notes for AI-generated or AI-modified work.
+- [Master document interpretation](docs/MASTER_DOC_NOTES.md) — a repository summary of the team's source document.
+
 ## Intellectual property and licensing
 
 This is **not** an official Casualties: Unknown project and is not affiliated with or endorsed by Orsoniks. The original game's names, characters, artwork, code, audio, and other protected material belong to their respective rights holders.
 
 **Do not commit extracted original-game assets, proprietary code, or other third-party work without permission covering this use and public distribution.** Keep a record of the source and permission for every imported asset.
 
-**No open-source license has been selected yet.** Public visibility does not grant permission to reuse code or assets. Contributors retain their applicable rights until permissions and licensing are explicitly agreed. See [asset policy](docs/ASSET_POLICY.md).
+**Open-source release is the team's stated goal, but no open-source license has been selected yet.** Public visibility does not grant permission to reuse code or assets. Contributors retain their applicable rights until permissions and licensing are explicitly agreed. See [asset policy](docs/ASSET_POLICY.md).
 
 ## Links
 
 - [Roadmap](docs/ROADMAP.md)
 - [Unity setup](docs/UNITY_SETUP.md)
 - [Team workflow](docs/TEAM_WORKFLOW.md)
+- [Art direction](docs/ART_DIRECTION.md)
+- [Audio direction](docs/SOUND_DESIGN.md)
 - [Report a bug or suggest a feature](../../issues/new/choose)
 
 ---
