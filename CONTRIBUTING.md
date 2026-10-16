@@ -11,18 +11,18 @@ Thank you for helping with this unofficial fan project! Please coordinate before
 
 ## Branches and pull requests
 
-- Branch from updated \`main\` using \`feature/<topic>\`, \`fix/<topic>\`, \`art/<topic>\`, or \`docs/<topic>\`.
+- Branch from updated `main` using `feature/<topic>`, `fix/<topic>`, `art/<topic>`, or `docs/<topic>`.
 - Keep changes focused and reference the Issue when possible.
-- Commit Unity \`.meta\` files alongside the assets they refer to.
-- Do not commit \`Library/\`, \`Temp/\`, build outputs, local settings, or generated IDE files.
+- Commit Unity `.meta` files alongside the assets they refer to.
+- Do not commit `Library/`, `Temp/`, build outputs, local settings, or generated IDE files.
 - Open a pull request explaining the change, how it was tested, screenshots/video if relevant, and asset permissions.
 - Request review; avoid merging your own large changes without another team member checking them.
 
 ## C# conventions (initial proposal)
 
-- Use four spaces, \`PascalCase\` for types/methods/properties, \`camelCase\` for locals and parameters.
+- Use four spaces, `PascalCase` for types/methods/properties, `camelCase` for locals and parameters.
 - Prefer small, understandable MonoBehaviour scripts with clearly named public or serialized fields.
-- Prefer \`[SerializeField] private\` over exposing mutable fields publicly.
+- Prefer `[SerializeField] private` over exposing mutable fields publicly.
 - Explain changes that affect performance, persistence, scene structure, or public APIs.
 
 These conventions may change after the team agrees on a technical design.
