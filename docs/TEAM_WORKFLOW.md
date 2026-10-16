@@ -8,16 +8,16 @@
 
 ## Board columns (suggested)
 
-\`Backlog\` → \`Ready\` → \`In Progress\` → \`Review\` → \`Done\`
+`Backlog` → `Ready` → `In Progress` → `Review` → `Done`
 
 ## Branch names
 
-- \`feature/<short-name>\` — new gameplay or tools
-- \`fix/<short-name>\` — bug fixes
-- \`art/<short-name>\` — 3D models, animation, materials, textures
-- \`docs/<short-name>\` — documentation
+- `feature/<short-name>` — new gameplay or tools
+- `fix/<short-name>` — bug fixes
+- `art/<short-name>` — 3D models, animation, materials, textures
+- `docs/<short-name>` — documentation
 
-Avoid pushing unfinished changes straight to \`main\`. Prefer pull requests and at least one reviewer before merging.
+Avoid pushing unfinished changes straight to `main`. Prefer pull requests and at least one reviewer before merging.
 
 ## Communication / reviews
 
@@ -26,7 +26,7 @@ Avoid pushing unfinished changes straight to \`main\`. Prefer pull requests and 
 3. Make a focused branch and commits.
 4. Create a PR using the template, including screenshots/video for visual changes.
 5. Review for compile errors, missing assets, permissions, performance, and scope.
-6. Merge to \`main\`; close the linked Issue.
+6. Merge to `main`; close the linked Issue.
 
 ## Version compatibility
 
