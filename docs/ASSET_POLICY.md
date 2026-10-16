@@ -21,7 +21,7 @@ For each new non-trivial art, music, or third-party code contribution, record:
 
 | Field | Example |
 | --- | --- |
-| Asset path | \`Assets/Art/Characters/Placeholder.fbx\` |
+| Asset path | `Assets/Art/Characters/Placeholder.fbx` |
 | Creator/source | Contributor handle or original URL |
 | Permission/license | Explicit written permission or license name/link |
 | Attribution | Credit line requested by creator |
